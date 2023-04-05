@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Kodinger">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>ROCA-Inscription</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/my-login.css">
+    <style>
+		body  {
+  
+  background-image: url(img/roca3.jpg);
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.card{
+	background-color: #ecf0f3;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+	</style>
+</head>
+<body class="my-login-page">
+	<section class="h-100">
+		<div class="container h-100">
+			<div class="row justify-content-md-center align-items-center h-100">
+				<div class="card-wrapper r">
+					<!-- <div class="brand">
+						<img src="img/logo.jpg" alt="bootstrap 4 login page">
+					</div> -->
+					<div class="card fat">
+						<div class="card-body">
+							<h4 class="card-title text-center">S'inscrire</h4>
+							<form method="POST" class="my-login-validation" novalidate="">
+								
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="name">Nom</label>
+											<input id="name" type="text" class="form-control" placeholder="Nom" name="name" required autofocus>
+											<div class="invalid-feedback">
+												Quel est votre nom?
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="name">prenom</label>
+											<input id="prenom" type="text" class="form-control" placeholder="Prenom" name="prenom" required autofocus>
+											<div class="invalid-feedback">
+												Quel est votre prenom?
+											</div>
+										</div>
+									</div>
+									</div>
+
+
+								<div class="form-group">
+									<label for="email">E-Mail</label>
+									<input id="email" type="email" class="form-control" placeholder="Entrez votre email" name="email" required>
+									<div class="invalid-feedback">
+										Votre email est invalide
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="password">Mot de passe</label>
+									<input id="password" type="password" class="form-control" placeholder="Entrez votre mot de passe" name="password" required data-eye>
+									<div class="invalid-feedback">
+										Le mot de passe est obligatoire
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="password">Confirmation du ot de passe</label>
+									<input id="password" type="password" class="form-control" placeholder="Retapez votre mot de passe" name="password_conf" required data-eye>
+									<div class="invalid-feedback">
+										Veuillez confirmer le mot de passe
+									</div>
+								</div>
+
+								<div class="form-group">
+									<label for="password">N° téléphone</label>
+									<input id="tel" type="tel" class="form-control" placeholder="votre N° de telephone" name="tel" required >
+									<div class="invalid-feedback">
+										Veuillez Entrer votre numero
+									</div>
+								</div>
+
+								<div class="form-group">
+									<div class="custom-checkbox custom-control">
+										<input type="checkbox" name="agree" id="agree" class="custom-control-input" required="">
+										<label for="agree" class="custom-control-label">J'accepte les <a href="#">Termes et Conditions</a></label>
+										<div class="invalid-feedback">
+											Vous devez accepter les conditions et termes
+										</div>
+									</div>
+								</div>
+
+								<div class="form-group m-0">
+									<button type="submit" class="btn btn-primary btn-block">
+										S'nscrire
+									</button>
+								</div>
+								<div class="mt-4 text-center">
+									J'ai deja un compte <a href="index.html">Connexion</a>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="footer mt-1 text-secondary">
+						Copyright &copy; 2023 &mdash;  ROCA
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/my-login.js"></script>
+</body>
+</html>
