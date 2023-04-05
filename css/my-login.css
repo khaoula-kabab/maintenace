@@ -3,8 +3,8 @@ html,body {
 }
 
 body.my-login-page {
-	background-color: #f7f9fb;
-	font-size: 14px;
+	/*background-image: url(img/roca3.jpeg); height: 100vh;*/
+	font-size: 13px;
 }
 
 .my-login-page .brand {
